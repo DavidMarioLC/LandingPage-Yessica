@@ -1,13 +1,46 @@
+:root {
+  --mainblack: #181717;
+  --maingray: #606060;
+  --mainwhite: #f3f3f3;
+  --secondary: #2429af;
+  --bg: #faf7f0;
+  --brown: #883f16;
+  --heading-1: 500 3.75rem/4rem DM Sans;
+  --heading-2: 500 2.5rem/3rem DM Sans;
+  --body: 400 1.125rem/1.5rem Inter;
+  --navigation: 500 1.3125rem/7.5rem DM Sans;
+  --navigationFooter: 500 1.3125rem/1.5rem DM Sans;
+  --sub-text: 400 0.875rem/1.375rem Inter;
+  --logo: 700 1.5rem/2rem Inter;
+  --button: 500 1.125rem/1.5rem Inter;
+  --heading-3: 400 2rem/3rem DM Sans;
+  --heading-4: 400 1.125rem/1.8125rem DM Sans;
+  --subheader-link: 500 1.125rem/1.5rem Inter;
+  --heading-5: 700 1.125rem/1.5rem Inter;
+}
+html {
+  scroll-behavior: smooth;
+}
 body {
+  font: var(--body);
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+figure {
+  margin: 0;
+}
+
+button {
+  border: none;
 }
