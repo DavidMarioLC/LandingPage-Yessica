@@ -1,6 +1,6 @@
 import { Title } from "./styles";
 function index({ value }) {
-  return <Title>{value}</Title>;
+  return <Title id="project">{value}</Title>;
 }
 
 export default index;

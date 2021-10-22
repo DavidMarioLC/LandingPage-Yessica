@@ -53,7 +53,6 @@ function App() {
           list="Sketch, Invision, Protopie, Proto.io, Adobe Photoshop, Adobe Illustrator, Adobe Premiere, WordPress."
         />
         <Contact
-          id="contact"
           title="Estoy encantada de responder a su próximo proyecto."
           email="yessica@gmail.com"
         />

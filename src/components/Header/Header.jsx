@@ -20,7 +20,7 @@ const Header = () => {
               <NavigationLink href="#project">Proyectos</NavigationLink>
             </NavigationItem>
             <NavigationItem>
-              <NavigationLink href="#skill">
+              <NavigationLink href="#contact">
                 Habilidades y herramientas
               </NavigationLink>
             </NavigationItem>
